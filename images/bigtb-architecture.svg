@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="520" viewBox="0 0 1000 520" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 20px "Helvetica", "Arial", sans-serif; fill: #1f4b8f; }
+    .subtitle { font: 16px "Helvetica", "Arial", sans-serif; fill: #2c3e50; }
+    .body { font: 14px "Helvetica", "Arial", sans-serif; fill: #2c3e50; }
+    .node { fill: #e8f1ff; stroke: #2c3e50; stroke-width: 1.5px; rx: 12px; }
+    .process { fill: #fff7e6; stroke: #c27c1d; stroke-width: 1.5px; rx: 12px; }
+    .metric { fill: #f2f9f0; stroke: #1f7a4c; stroke-width: 1.5px; rx: 12px; }
+    .arrow { stroke: #2c3e50; stroke-width: 2.5px; marker-end: url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="10" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#2c3e50"/>
+    </marker>
+  </defs>
+
+  <text x="120" y="40" class="title">A. Genotype Data</text>
+  <rect x="40" y="60" width="220" height="120" class="node"/>
+  <text x="60" y="95" class="subtitle">High-quality annotated VCFs</text>
+  <text x="60" y="120" class="body">• Reconstruction from raw sequencing</text>
+  <text x="60" y="145" class="body">• Multiple sequence alignment (DNA)</text>
+  <text x="60" y="170" class="body">• Translation to protein alignments</text>
+
+  <text x="390" y="40" class="title">B. Phenotype Data</text>
+  <rect x="350" y="60" width="240" height="120" class="node"/>
+  <text x="370" y="95" class="subtitle">Measured drug susceptibility</text>
+  <text x="370" y="120" class="body">• 11 WHO-priority antibiotics</text>
+  <text x="370" y="145" class="body">• Resistant / susceptible labels</text>
+  <text x="370" y="170" class="body">• Clinical &amp; surveillance cohorts</text>
+
+  <text x="720" y="40" class="title">C. Models</text>
+  <rect x="660" y="60" width="280" height="190" class="node"/>
+  <text x="680" y="95" class="subtitle">Sequence Models</text>
+  <text x="680" y="120" class="body">• CNNs, Transformers, DNABERT-2</text>
+  <text x="680" y="145" class="subtitle">Protein Models</text>
+  <text x="680" y="170" class="body">• ESM embeddings, fused ridge baselines</text>
+  <text x="680" y="195" class="subtitle">Structure-aware Features</text>
+  <text x="680" y="220" class="body">• Solvent accessibility, ligand proximity</text>
+
+  <line x1="260" y1="120" x2="340" y2="120" class="arrow"/>
+  <line x1="590" y1="120" x2="650" y2="120" class="arrow"/>
+
+  <rect x="120" y="240" width="320" height="120" class="process"/>
+  <text x="140" y="275" class="subtitle">Evolutionary Augmentation</text>
+  <text x="140" y="300" class="body">• Homolog retrieval via UniProt &amp; InterPro</text>
+  <text x="140" y="325" class="body">• Weak-label curation for underrepresented proteins</text>
+
+  <rect x="520" y="260" width="360" height="130" class="metric"/>
+  <text x="540" y="295" class="subtitle">Task 1: Phenotype Prediction</text>
+  <text x="540" y="320" class="body">• AUC across 11 drugs</text>
+  <text x="540" y="345" class="subtitle">Task 2: Causal Variant Discovery</text>
+  <text x="540" y="370" class="body">• Precision@k · Recall@k compared to WHO 2023</text>
+
+  <line x1="300" y1="360" x2="520" y2="325" class="arrow"/>
+  <line x1="800" y1="250" x2="800" y2="260" class="arrow"/>
+
+  <rect x="240" y="400" width="520" height="100" class="process"/>
+  <text x="260" y="435" class="subtitle">Explainability &amp; Benchmarking</text>
+  <text x="260" y="460" class="body">• SHAP variant attribution · Alignment with WHO catalogs · Reproducible evaluation toolkit</text>
+</svg>

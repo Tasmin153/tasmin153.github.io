@@ -7,8 +7,16 @@ author_profile: true
 
 {% include base_path %}
 
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+{% assign projects = site.portfolio | sort: "title" %}
+{% for project in projects %}
+<h2> {{ project.title }}</h2>
+{% if project.excerpt %}
+{{ project.excerpt | markdownify }}
+{% endif %}
+{% if project.content %}
+{{ project.content | markdownify }}
+{% endif %}
+{% unless forloop.last %}
+---
+{% endunless %}
 {% endfor %}
-

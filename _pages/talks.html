@@ -11,6 +11,23 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% assign talks = site.talks | sort: "date" | reverse %}
+{% for talk in talks %}
+  {% assign talk_title = talk.title | markdownify | replace: '<p>', '' | replace: '</p>', '' %}
+  <h2>{{ talk_title }}</h2>
+  <p><em>
+    {% if talk.date %}{{ talk.date | date: "%B %d, %Y" }}{% endif %}
+    {% if talk.type %}{% if talk.date %} · {% endif %}{{ talk.type }}{% endif %}
+    {% if talk.venue %} · {{ talk.venue }}{% endif %}
+    {% if talk.location %} · {{ talk.location }}{% endif %}
+  </em></p>
+  {% if talk.excerpt %}
+    {{ talk.excerpt | markdownify }}
+  {% endif %}
+  {% if talk.content %}
+    {{ talk.content | markdownify }}
+  {% endif %}
+  {% unless forloop.last %}
+  <hr />
+  {% endunless %}
 {% endfor %}

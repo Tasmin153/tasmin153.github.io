@@ -1,12 +1,11 @@
 ---
 title: "Beyond Sequence-Only Models: Leveraging Structural Constraints for Antibiotic Resistance Prediction in Sparse Genomic Datasets"
 collection: publications
-category: conferences
+category: workshops
 permalink: /publications/beyond-sequence-only/
 date: 2025-05-01
 venue: "ICLR 2025 MLGenX Workshop"
-authors: "Mahbuba Tasmin*, Anna Green"
-paperurl: "https://openreview.net/forum?id=XXXX"
-excerpt: "We introduce a structure-aware framework that combines deep learning and structural bioinformatics to improve resistance prediction in *Mycobacterium tuberculosis* under sparse data settings."
+authors: "Mahbuba Tasmin, Anna Green"
+excerpt: "Structural constraints paired with deep learning improve resistance prediction under extreme label sparsity."
 ---
-We present a hybrid model integrating sequence embeddings, and 3D-proximity constraints to enhance interpretability and accuracy in antibiotic resistance prediction. Evaluations across 11 drugs show consistent gains over sequence-only baselines.
+**Summary:** Presents a structure-aware hybrid model that injects contact-map priors and residue-level constraints into sequence-based predictors to maintain interpretability with limited labeled isolates. Demonstrates improved accuracy across sparse genomic datasets for *Mycobacterium tuberculosis*.

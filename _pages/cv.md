@@ -9,56 +9,85 @@ redirect_from:
 
 {% include base_path %}
 
+Mahbuba Tasmin  
+PhD Candidate in Computer Science (Computational Biology & Machine Learning), University of Massachusetts Amherst  
+413-479-9565 · [mtasmin@umass.edu](mailto:mtasmin@umass.edu) · [linkedin.com/in/mahbuba-tasmin](https://www.linkedin.com/in/mahbuba-tasmin/) · [github.com/Tasmin153](https://github.com/Tasmin153) · [Google Scholar](https://scholar.google.com/citations?user=kiMgu3EAAAAJ&hl=en&authuser=1)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **University of Massachusetts Amherst**, Amherst, MA  
+  *Ph.D. Candidate in Computer Science (Advisor: Prof. Anna Green),* **Expected May 2027**  
+  • Research Interests: Resistance Forecasting, Explainable ML, Protein Language Models, Structural Bioinformatics  
+  • CGPA: 3.9/4.0  
+  • Awards: Sudha and Rajesh Jha Scholarship (2023)  
+  • Relevant Coursework: Advanced Algorithms, Machine Learning, Neural Networks, Computational Biology, AI, Information Assurance, Computer Architecture, Teaching for Tomorrow’s Faculty, ML for Biological Sequence Data
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **University of Massachusetts Amherst**, Amherst, MA  
+  *M.S. in Computer Science,* **Sep. 2022 – May 2025**  
+  • Thesis aligned with Ph.D. research on antibiotic resistance modeling  
+  • CGPA: 3.9/4.0
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **North South University**, Dhaka, Bangladesh  
+  *B.S. in Computer Science and Engineering (Summa Cum Laude),* **Jan. 2016 – Dec. 2019**  
+  • Concentration: Artificial Intelligence and Algorithms · CGPA: 3.89/4.0
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Research Experience
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Graduate Research Assistant**, SAGE Lab, University of Massachusetts Amherst — Amherst, MA  
+  **Sep. 2022 – Present**  
+  • Lead researcher on **BIG-TB**, a multimodal benchmark of ~17K *M. tuberculosis* isolates for resistance prediction across 11 WHO-priority drugs  
+  • Designed sequence- and structure-aware models (CNNs, Transformers, fused ridge baselines) integrating DNA/protein features and ESM embeddings  
+  • Built multi-species augmentation pipelines (UniProt, InterPro) to improve protein-level generalization via evolutionary data  
+  • Performed explainability studies with SHAP and causal variant recovery (recall@k) versus WHO 2023 catalog  
+  • Co-led **Forecasting Antibiotic Resistance Using Biophysics and ML**, fusing protein thermostability metrics with machine learning for variant assessment  
+  • Collaborated with Harvard DBMI (Farhat Lab) on reproducible multi-gene modeling and benchmarking  
+  • Formulated a fused ridge regression framework with convex regularization, fusion penalties, and accelerated gradient descent (momentum, clipping, Nesterov)
 
-Publications
+Industry Experience
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+* **AI Engineer**, NITEX Solutions Ltd. — Dhaka, Bangladesh  
+  **Mar. 2022 – Jul. 2022**  
+  • Implemented Detectron2-based instance segmentation for product identification and OCR automation tools  
+  • Built fashion trend moodboards combining NLP and computer vision pipelines for workflow automation
+
+* **Software Engineer (AI & ML)**, M2SYS Technology — Dhaka, Bangladesh  
+  **Jul. 2020 – Feb. 2022**  
+  • Developed image spoofing detection and contextual recommendation systems using ML and NLP techniques  
+  • Automated backend workflows with Camunda and deployed production ML models across distributed systems
+
+Selected Publications
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* Green, A. G., Tasmin, M., Vargas, R., Farhat, M. R. **“The structural context of mutations in proteins predicts their effect on antibiotic resistance.”** Submitted to *eLife*. Preprint: bioRxiv 2025.09.23.676583 (2025)
+* Tasmin, M., Green, A. **“Beyond Sequence-only Models: Leveraging Structural Constraints for Antibiotic Resistance Prediction in Sparse Genomic Datasets.”** ICLR 2025 MLGenX Workshop (2025)
+* Yang, Z., Yao, Z., Tasmin, M. et al. **“Unveiling GPT-4V’s hidden challenges behind high accuracy on USMLE questions.”** *Journal of Medical Internet Research* (2025)
+* Tasmin, M. **“Protein Structure-Informed Regularized Linear Model Outperforms ESM for Predicting Antibiotic Resistance.”** Program in Quantitative Genomics (PQG), Harvard University, 2024 — Poster presentation demonstrating integration of 3D structural features with machine learning models
+
+Talks and Presentations
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+* **BIG-TB: A Benchmark Dataset for Genomic Resistance Prediction and Interpretability in *Mycobacterium tuberculosis*** — Machine Learning for Computational Biology (MLCB) Workshop, 2025 · Spotlight talk highlighting dataset design and explainability analyses  
+* **Protein Structure-Informed Regularized Linear Model Outperforms ESM for Predicting Antibiotic Resistance** — Program in Quantitative Genomics Conference (PQG), Harvard University, 2024 · Poster presentation on 3D structural integration with ML models
+
+Teaching Experience
 ======
-* Currently signed in to 43 different slack teams
+* **Head Teaching Assistant**, CompSci 520: Theory and Implementation of Advanced Software Engineering, UMass Amherst  
+  **Fall 2025 – Spring 2025** (academic year)  
+  • Led 140+ students, managed TA team, coordinated logistics, and maintained GitHub Classroom and Gradescope automation
+* **Course Developer Assistant**, CompSci 520: Theory and Implementation of Advanced Software Engineering, UMass Amherst  
+  **Summer 2023**  
+  • Revamped course structure, labs, and assignments with automated grading workflows
+
+Honors and Awards
+======
+* CRA-WP Grad Cohort for Women (2023), San Francisco, USA
+
+Technical Skills
+======
+* **Tools & Languages:** Python, Bash, R, LaTeX, pandas, NumPy, matplotlib, Git, Docker, Linux, SLURM  
+* **ML/AI:** PyTorch, scikit-learn, XGBoost, CNNs, Transformers, Random Forests, SHAP  
+* **Bioinformatics:** UniProt, InterPro, Rosetta, AAIndex, Protein Structure analysis, VEP/ANNOVAR
+
+Leadership & Mentorship
+======
+* **PhD Graduate Representative**, Student Representative in Faculty Senate, College of Computer & Information Sciences, UMass Amherst — Fall 2025  
+* **Shakir Sahibul**, M.S. Student, UMass Amherst — Fall 2024 · Supervised Transformer-based resistance prediction project  
+* **Suqi Hong**, M.S. Student, UMass Amherst — Fall 2025 · Supervising EvoAug-based protein resistance prediction project

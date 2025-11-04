@@ -3,22 +3,24 @@
 # ─────────────────────────────────────────────
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Mahbuba Tasmin – Computational Biology & Machine Learning"
+title                    : "Mahbuba Tasmin"
 title_separator          : "-"
 name                     : &name "Mahbuba Tasmin"
 description              : &description "Ph.D. Candidate at UMass Amherst | Computational Biology, Genomic ML, Antibiotic Resistance"
 url                      : "https://tasmin153.github.io"   # your GitHub Pages URL
 baseurl                  : ""                            # leave empty unless hosted under subpath
-repository               : "https://tasmin153.github.io"   # change if repo name differs
+repository               : "tasmin153/tasmin153.github.io"   # owner/repo slug for GitHub integrations
+include:
+  - "_pages"
 
 # ─────────────────────────────────────────────
 # Author Sidebar Information
 # ─────────────────────────────────────────────
 author:
-  avatar           : "profile.png"   # put your image in /images/profile.png
+  avatar           : "IMG_2247.png"   # file should live in /images/
   name             : "Mahbuba Tasmin"
   pronouns         : "she/her"
-  bio              : "Ph.D. Candidate in Computer Science at UMass Amherst. My research integrates machine learning and computational biology to understand and predict antibiotic resistance in *Mycobacterium tuberculosis*."
+  bio              : "Ph.D. Candidate in Computer Science at UMass Amherst. My research integrates machine learning and computational biology to understand and predict antibiotic resistance in Mycobacterium tuberculosis."
   location         : "Amherst, MA, USA"
   employer         : "University of Massachusetts Amherst"
   uri              : "https://tasmin153.github.io"
@@ -26,25 +28,25 @@ author:
 
   # Academic websites
   googlescholar    : "https://scholar.google.com/citations?user=kiMgu3EAAAAJ&hl=en&authuser=1"  # replace with your Scholar ID
-  orcid            : "https://tasmin153.github.io"                   # replace with your ORCID if you have one
+  orcid            : "https://orcid.org/0000-0003-1884-8838"
   # researchgate     : "https://www.researchgate.net/profile/Mahbuba-Tasmin"
-  pubmed           : 
-  academia         :
-  semantic         :
+  # pubmed           : 
+  # academia         :
+  # semantic         :
 
   # Code & professional
   github           : "tasmin153"
-  kaggle           :
-  stackoverflow    :
+  # kaggle           :
+  # stackoverflow    :
 
   # Social media
   linkedin         : "https://www.linkedin.com/in/mahbuba-tasmin/"
   # twitter          : "MahbubaTasmin"
-  bluesky          :
-  instagram        :
-  mastodon         :
-  youtube          :
-  medium           :
+  # bluesky          :
+  # instagram        :
+  # mastodon         :
+  # youtube          :
+  # medium           :
 
 # ─────────────────────────────────────────────
 # Publication Categories
@@ -62,7 +64,7 @@ publication_category:
 # ─────────────────────────────────────────────
 # Site Options
 # ─────────────────────────────────────────────
-teaser                   : "images/profile.png" # optional preview image
+teaser                   : "images/IMG_2247.png" # optional preview image
 breadcrumbs              : false
 words_per_minute         : 160
 future                   : true
@@ -74,7 +76,7 @@ comments:
 
 atom_feed:
   hide                   : false
-  path                   :
+  # path                   :
 
 # ─────────────────────────────────────────────
 # SEO & Social
@@ -112,6 +114,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  experience:
+    output: true
+    permalink: /:collection/:path/
 
 # ─────────────────────────────────────────────
 # Defaults for page layouts
@@ -146,6 +151,12 @@ defaults:
       type: talks
     values:
       layout: talk
+      author_profile: true
+  - scope:
+      path: ""
+      type: experience
+    values:
+      layout: single
       author_profile: true
 
 # ─────────────────────────────────────────────

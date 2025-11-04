@@ -1,4 +1,3 @@
-```yaml
 ---
 permalink: /
 title: "Mahbuba Tasmin | Computational Biology & Machine Learning"
@@ -7,7 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-```
 
 👋 **Welcome!**
 I’m **Mahbuba Tasmin**, a Ph.D. candidate in **Computer Science** at the **University of Massachusetts Amherst**, advised by [Prof. Anna Green](https://people.cs.umass.edu/~annagreen/). I work in the **SAGE Lab** (Statistical and Genomic Evidence Lab), where my research bridges **machine learning**, **computational biology**, and **antibiotic resistance genomics**.

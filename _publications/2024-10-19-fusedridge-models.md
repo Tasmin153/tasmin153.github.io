@@ -1,11 +1,11 @@
 ---
-title: "Fused-Ridge Models for Variant-Level Resistance Prediction"
+title: "Protein Structure-Informed Regularized Linear Model Outperforms ESM for Predicting Antibiotic Resistance"
 collection: publications
-category: workshops
+category: conferences
 permalink: /publications/fusedridge-models/
-date: 2024-10-19
-venue: "PQG 2024 Poster, Harvard Medical School"
-authors: "Mahbuba Tasmin, Anna Green"
-excerpt: "Introduces a fused-ridge regularization framework for variant-level resistance prediction integrating biological priors on mutation proximity and feature structure."
+date: 2024-11-15
+venue: "Program in Quantitative Genomics Conference (PQG), Harvard University"
+authors: "Mahbuba Tasmin"
+excerpt: "Poster highlighting a fused regularized linear model that integrates 3D structural features and surpasses ESM-based baselines for resistance prediction."
 ---
-We design fused penalties across structural neighbors and biochemical feature groups, improving variant prioritization in pyrazinamide and rifampicin resistance models.
+**Summary:** Poster presentation demonstrating how fused regularization over structural neighborhoods and biochemical feature groups yields stronger predictive accuracy than large protein language models on Mycobacterium tuberculosis resistance benchmarks.

@@ -7,6 +7,21 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% assign courses = site.teaching | sort: "date" | reverse %}
+{% for course in courses %}
+<h2>{{ course.title }}</h2>
+{% assign details = "" %}
+{% if course.type %}{% assign details = details | append: course.type %}{% endif %}
+{% if course.venue %}{% if details != "" %}{% assign details = details | append: " · " %}{% endif %}{% assign details = details | append: course.venue %}{% endif %}
+{% if course.location %}{% if details != "" %}{% assign details = details | append: " · " %}{% endif %}{% assign details = details | append: course.location %}{% endif %}
+{% if course.duration %}{% if details != "" %}{% assign details = details | append: " · " %}{% endif %}{% assign details = details | append: course.duration %}{% elsif course.date %}{% if details != "" %}{% assign details = details | append: " · " %}{% endif %}{% assign details = details | append: course.date | date: "%B %Y" %}{% endif %}
+{% if details != "" %}
+<p><em>{{ details }}</em></p>
+{% endif %}
+{% if course.content %}
+{{ course.content | markdownify }}
+{% endif %}
+{% unless forloop.last %}
+---
+{% endunless %}
 {% endfor %}
