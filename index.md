@@ -47,10 +47,8 @@ Outside the lab, I enjoy **clay crafts, photography, and event organization** â€
 ### ðŸ“„ Quick Links
 
 * [CV (PDF)](/files/Mahbuba_cv_FA25.pdf)
-<!-- * [Google Scholar](https://scholar.google.com/citations?user=kiMgu3EAAAAJ&hl=en&authuser=1)
-* [GitHub](https://github.com/Tasmin153)
-* [LinkedIn](https://www.linkedin.com/in/mahbuba-tasmin/)
-* [Email](mailto:mtasmin@umass.edu) -->
+
+
 
 ---
 
