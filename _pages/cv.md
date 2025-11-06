@@ -11,47 +11,45 @@ redirect_from:
 
 Mahbuba Tasmin  
 PhD Candidate in Computer Science (Computational Biology & Machine Learning), University of Massachusetts Amherst  
-413-479-9565 · [mtasmin@umass.edu](mailto:mtasmin@umass.edu) · [linkedin.com/in/mahbuba-tasmin](https://www.linkedin.com/in/mahbuba-tasmin/) · [github.com/Tasmin153](https://github.com/Tasmin153) · [Google Scholar](https://scholar.google.com/citations?user=kiMgu3EAAAAJ&hl=en&authuser=1)
+· [linkedin.com/in/mahbuba-tasmin](https://www.linkedin.com/in/mahbuba-tasmin/) · [github.com/Tasmin153](https://github.com/Tasmin153) · [Google Scholar](https://scholar.google.com/citations?user=kiMgu3EAAAAJ&hl=en&authuser=1)
 
 Education
 ======
 * **University of Massachusetts Amherst**, Amherst, MA  
   *Ph.D. Candidate in Computer Science (Advisor: Prof. Anna Green),* **Expected May 2027**  
   • Research Interests: Resistance Forecasting, Explainable ML, Protein Language Models, Structural Bioinformatics  
-  • CGPA: 3.9/4.0  
   • Awards: Sudha and Rajesh Jha Scholarship (2023)  
   • Relevant Coursework: Advanced Algorithms, Machine Learning, Neural Networks, Computational Biology, AI, Information Assurance, Computer Architecture, Teaching for Tomorrow’s Faculty, ML for Biological Sequence Data
 
 * **University of Massachusetts Amherst**, Amherst, MA  
-  *M.S. in Computer Science,* **Sep. 2022 – May 2025**  
+  *M.S. in Computer Science*
   • Thesis aligned with Ph.D. research on antibiotic resistance modeling  
-  • CGPA: 3.9/4.0
 
 * **North South University**, Dhaka, Bangladesh  
-  *B.S. in Computer Science and Engineering (Summa Cum Laude),* **Jan. 2016 – Dec. 2019**  
-  • Concentration: Artificial Intelligence and Algorithms · CGPA: 3.89/4.0
+  *B.S. in Computer Science and Engineering (Summa Cum Laude)*
+  • Concentration: Artificial Intelligence and Algorithms
 
 Research Experience
 ======
 * **Graduate Research Assistant**, SAGE Lab, University of Massachusetts Amherst — Amherst, MA  
-  **Sep. 2022 – Present**  
+  **Sep. 2023 – Present**  
   • Lead researcher on **BIG-TB**, a multimodal benchmark of ~17K *M. tuberculosis* isolates for resistance prediction across 11 WHO-priority drugs  
   • Designed sequence- and structure-aware models (CNNs, Transformers, fused ridge baselines) integrating DNA/protein features and ESM embeddings  
   • Built multi-species augmentation pipelines (UniProt, InterPro) to improve protein-level generalization via evolutionary data  
   • Performed explainability studies with SHAP and causal variant recovery (recall@k) versus WHO 2023 catalog  
-  • Co-led **Forecasting Antibiotic Resistance Using Biophysics and ML**, fusing protein thermostability metrics with machine learning for variant assessment  
+  • Led **Forecasting Antibiotic Resistance Using Biophysics and ML**, fusing protein thermostability metrics with machine learning for variant assessment  
   • Collaborated with Harvard DBMI (Farhat Lab) on reproducible multi-gene modeling and benchmarking  
   • Formulated a fused ridge regression framework with convex regularization, fusion penalties, and accelerated gradient descent (momentum, clipping, Nesterov)
 
 Industry Experience
 ======
 * **AI Engineer**, NITEX Solutions Ltd. — Dhaka, Bangladesh  
-  **Mar. 2022 – Jul. 2022**  
+  **2022**  
   • Implemented Detectron2-based instance segmentation for product identification and OCR automation tools  
   • Built fashion trend moodboards combining NLP and computer vision pipelines for workflow automation
 
 * **Software Engineer (AI & ML)**, M2SYS Technology — Dhaka, Bangladesh  
-  **Jul. 2020 – Feb. 2022**  
+  **2020 – 2022**  
   • Developed image spoofing detection and contextual recommendation systems using ML and NLP techniques  
   • Automated backend workflows with Camunda and deployed production ML models across distributed systems
 
