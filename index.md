@@ -31,6 +31,21 @@ You can read more about these in my [publications](/publications/) and [projects
 
 ---
 
+### Year in Review (2025)
+
+This year marked a series of important academic and research milestones:
+
+* Published a research article in [eLife](https://doi.org/10.7554/eLife.109450.1) on predicting antibiotic resistance using protein structural context
+* Presented work at ICLR (MLGenX Workshop) on structure-aware machine learning models
+* Delivered a lightning/spotlight talk at the Machine Learning for Computational Biology (MLCB) workshop
+* Completed my M.S. in Computer Science, with thesis research aligned with my PhD work
+* Advanced to PhD candidacy
+* Currently preparing two journal manuscripts focused on resistance forecasting and interpretable biological ML
+
+Overall, this year represented a transition from exploratory experimentation to defining a focused research agenda at the intersection of machine learning, structural bioinformatics, and infectious disease genomics.
+
+---
+
 ### 📚 Teaching & Mentorship
 
 I serve as a Teaching Assistant for CS520 (Software Testing) at UMass, where I help students design and evaluate test coverage, mutation analysis, and automated testing frameworks in Java.
