@@ -17,7 +17,7 @@ include:
 # Author Sidebar Information
 # ─────────────────────────────────────────────
 author:
-  avatar           : "Snapchat-1427949884.jpg"   # file should live in /images/
+  avatar           : "DSC_8474.jpg"   # file should live in /images/
   name             : "Mahbuba Tasmin"
   pronouns         : "she/her"
   bio              : "Ph.D. Candidate in Computer Science at UMass Amherst. My research integrates machine learning and computational biology to understand and predict antibiotic resistance in Mycobacterium tuberculosis."
