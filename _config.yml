@@ -64,7 +64,7 @@ publication_category:
 # ─────────────────────────────────────────────
 # Site Options
 # ─────────────────────────────────────────────
-teaser                   : "images/Snapchat-1427949884.jpg" # optional preview image
+teaser                   : "images/DSC_8474.jpg" # optional preview image
 breadcrumbs              : false
 words_per_minute         : 160
 future                   : true
