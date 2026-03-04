@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /about/
 title: "Mahbuba Tasmin | Computational Biology & Machine Learning"
 author_profile: true
 redirect_from:
@@ -46,7 +46,7 @@ Outside the lab, I enjoy **clay crafts, photography, and event organization** â€
 
 ### ðŸ“„ Quick Links
 
-* [CV (PDF)](/files/Mahbuba_cv_FA25.pdf)
+* [CV (PDF)](/files/mahbuba_biohub_sp26.pdf)
 <!-- * [Google Scholar](https://scholar.google.com/)
 * [GitHub](https://github.com/mtasmin)
 * [LinkedIn](https://www.linkedin.com/in/mahbuba-tasmin/)
