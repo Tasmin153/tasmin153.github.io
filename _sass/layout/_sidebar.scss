@@ -98,7 +98,8 @@
     width: 100%;
     max-width: 175px;
     aspect-ratio: 1 / 1;
-    object-fit: cover;
+    object-fit: contain;
+    // object-position: center 25%; // move crop downward so top of head shows
     border-radius: 50%;
 
     @include breakpoint($large) {
