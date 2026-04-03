@@ -61,6 +61,18 @@ Outside the lab, I enjoy clay crafts, photography, and event organization— fro
 
 ### 📄 Quick Links
 
+### Schedule a Meeting
+
+<div style="max-width: 750px;">
+  <iframe
+    src="https://scheduler.zoom.us/mahbuba-tasmin/30-mins-with-mahbuba?embed=true"
+    frameborder="0"
+    style="width: 100%; height: 560px; border: 0;">
+  </iframe>
+</div>
+
+---
+
 * [CV (PDF)](/files/Mahbuba_cv_FA25.pdf)
 
 
