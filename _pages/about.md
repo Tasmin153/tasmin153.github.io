@@ -46,7 +46,7 @@ Outside the lab, I enjoy **clay crafts, photography, and event organization** â€
 
 ### ðŸ“„ Quick Links
 
-* [CV (PDF)](/files/mahbuba_biohub_sp26.pdf)
+* [CV (PDF)](/files/Mahbuba_Tasmin_CV.pdf)
 <!-- * [Google Scholar](https://scholar.google.com/)
 * [GitHub](https://github.com/mtasmin)
 * [LinkedIn](https://www.linkedin.com/in/mahbuba-tasmin/)

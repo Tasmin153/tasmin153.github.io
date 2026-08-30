@@ -31,15 +31,16 @@ Full details in [publications](/publications/) and [projects](/portfolio/).
 
 ---
 
-<div class="section-head"><h2>2025, in review</h2></div>
+<div class="section-head"><h2>Recent milestones</h2></div>
 
 <ul class="timeline">
-<li><span class="tl-tag">eLife</span><span>Published a <a href="https://doi.org/10.7554/eLife.109450.1">research article</a> on predicting antibiotic resistance using protein structural context.</span></li>
-<li><span class="tl-tag">ICLR</span><span>Presented work at the MLGenX workshop on structure-aware machine learning models.</span></li>
-<li><span class="tl-tag">MLCB</span><span>Delivered a spotlight talk at the Machine Learning for Computational Biology workshop.</span></li>
-<li><span class="tl-tag">M.S.</span><span>Completed my Master's in Computer Science, thesis aligned with PhD research.</span></li>
-<li><span class="tl-tag">PhD</span><span>Advanced to Ph.D. candidacy.</span></li>
-<li><span class="tl-tag">In prep</span><span>Preparing two journal manuscripts on resistance forecasting and interpretable biological ML.</span></li>
+<li><span class="tl-tag">2026</span><span>Submitted the <strong>FARM</strong> manuscript (biophysics-aware resistance forecasting) — under review at PNAS.</span></li>
+<li><span class="tl-tag">2026</span><span>Selected as a fully funded graduate participant for the Tapia Conference.</span></li>
+<li><span class="tl-tag">2026</span><span>Featured as a graduate researcher in UMass's <a href="https://www.youtube.com/watch?v=O0k0XMh18G8">AI at UMass</a> public-engagement campaign.</span></li>
+<li><span class="tl-tag">2025</span><span>Published a <a href="https://doi.org/10.7554/eLife.109450.1">research article</a> in eLife on predicting antibiotic resistance using protein structural context.</span></li>
+<li><span class="tl-tag">2025</span><span>Presented work at the ICLR MLGenX workshop and delivered a spotlight talk at MLCB.</span></li>
+<li><span class="tl-tag">2025</span><span>Completed my Master's in Computer Science and advanced to Ph.D. candidacy.</span></li>
+<li><span class="tl-tag">2026</span><span>Preparing to propose my dissertation, <em>"Integrating Biological Signal to Improve Generalizability and Interpretability of Machine Learning in Genomics,"</em> in early Fall.</span></li>
 </ul>
 
 ---
@@ -75,7 +76,7 @@ Full details in [publications](/publications/) and [projects](/portfolio/).
 
 ---
 
-[CV (PDF)](/files/Mahbuba_cv_FA25.pdf)
+[CV (PDF)](/files/Mahbuba_Tasmin_CV.pdf)
 
 ---
 

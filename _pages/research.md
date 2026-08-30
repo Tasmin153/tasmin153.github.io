@@ -19,7 +19,7 @@ It standardizes resistance prediction as a unified ML task and enables fair comp
 - Integrated genomic, proteomic, and evolutionary features across drug pathways  
 - Evaluated CNN, Transformer, and foundation model embeddings (ESM2, DNABERT)  
 
-📄 *Manuscript in preparation:* “**BIG-TB: A Benchmark Dataset for Genomic Resistance Prediction and Interpretability in *M. tuberculosis***”
+📄 *Manuscript submitted, under revision following peer review:* “**BIG-TB: A Benchmark for Prediction and Interpretability of Sequence-Based Machine Learning Using *M. tuberculosis* Genomes**,” bioRxiv (2026).
 
 ---
 
@@ -32,6 +32,8 @@ We integrate:
 - SHAP-based variant attribution for explainability  
 
  *Goal:* Bridge **mechanistic biology** with **interpretable ML**, yielding causal insights into mutation effects.
+
+📄 *Manuscript under review at PNAS:* “**FARM: Forecasting Antibiotic Resistance in *Mycobacterium tuberculosis* Using Biophysics and Machine Learning**,” bioRxiv (2026).
 
 ---
 

@@ -52,14 +52,18 @@ author:
 # Publication Categories
 # ─────────────────────────────────────────────
 publication_category:
+  preprints:
+    title: "Preprints & Manuscripts Under Review"
   manuscripts:
     title: "Journal Articles"
+  chapters:
+    title: "Book Chapters"
   conferences:
     title: "Conference Papers"
   workshops:
     title: "Workshop Papers"
-  preprints:
-    title: "Preprints"
+  abstracts:
+    title: "Extended Abstracts"
 
 # ─────────────────────────────────────────────
 # Site Options

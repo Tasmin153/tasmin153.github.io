@@ -6,10 +6,10 @@ permalink: /teaching/2025-fall-cs520
 venue: "University of Massachusetts Amherst, College of Information & Computer Sciences"
 date: 2025-09-01
 location: "Amherst, MA, USA"
-duration: "Fall 2025 – Spring 2025; Spring 2023 & Fall 2023"
+duration: "Spring 2023, Fall 2023, Spring 2025 – Spring 2026"
 ---
 
-I have been part of the **CS520: Theory and Implementation of Advanced Software Engineering** teaching team at UMass Amherst across multiple semesters — **Spring 2023, Fall 2023, Spring 2025, and Fall 2025** — and served as **Course Developer Assistant** during **Summer 2023**.  
+I have been part of the **CS520: Theory and Implementation of Advanced Software Engineering** teaching team at UMass Amherst across multiple semesters — **Spring 2023, Fall 2023, Spring 2025, Fall 2025, and Spring 2026** — and served as **Course Developer** during **Summer 2023**.  
 The course covers advanced topics in software design, testing, and quality assurance, with hands-on assignments focused on automation and reproducibility.
 
 ---
