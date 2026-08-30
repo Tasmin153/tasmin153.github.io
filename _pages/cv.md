@@ -60,21 +60,21 @@ Selected Publications
 Full list with abstracts on the [Publications](/publications/) page.
 
 *Preprints and Manuscripts Under Review*
-* Tasmin, M., Barethiya, S., Wang, Y., Kang, L., Chen, J., Green, A. G. **"FARM: Forecasting Antibiotic Resistance in *Mycobacterium tuberculosis* Using Biophysics and Machine Learning."** bioRxiv, 2026. Manuscript under review at *Proceedings of the National Academy of Sciences (PNAS)*.
+* Tasmin, M., Barethiya, S., Wang, Y., Kang, L., Chen, J., Green, A. G. **["FARM: Forecasting Antibiotic Resistance in *Mycobacterium tuberculosis* Using Biophysics and Machine Learning."](https://doi.org/10.64898/2026.07.23.7403)** bioRxiv, 2026. Manuscript under review at *Proceedings of the National Academy of Sciences (PNAS)*.
 * Tasmin, M., Mohanty, S., Kulkarni, S., Farhat, M. R., Green, A. G. **"BIG-TB: A Benchmark for Prediction and Interpretability of Sequence-Based Machine Learning Using *Mycobacterium tuberculosis* Genomes."** bioRxiv, 2026. Manuscript submitted; under revision following peer review.
 
 *Peer-Reviewed Journal Articles & Book Chapters*
-* Green, A. G., **Tasmin, M.**, Vargas Jr., R., Farhat, M. R. **"The structural context of mutations in proteins predicts their effect on antibiotic resistance."** *eLife*, 14:RP109450, 2025.
-* Yang, Z., Yao, Z., **Tasmin, M.**, et al. **"Unveiling GPT-4V's hidden challenges behind high accuracy on USMLE questions: Observational Study."** *Journal of Medical Internet Research*, 27:e65146, 2025.
-* **Tasmin, M.**, et al. **"Assessment of Deep Learning Models for Human Activity Recognition on Multivariate Time Series Data and Non-targeted Adversarial Attack."** In *Advances in Intelligent Systems Research and Innovation*, SSDC vol. 379, Springer, 2022.
-* **Tasmin, M.**, Nag, P., Hoque, Z. T., Molla, M. M. **"Non-Newtonian effect on heat transfer and entropy generation of natural convection nanofluid flow inside a vertical wavy porous cavity."** *SN Applied Sciences*, 3:299, 2021.
+* Green, A. G., **Tasmin, M.**, Vargas Jr., R., Farhat, M. R. **["The structural context of mutations in proteins predicts their effect on antibiotic resistance."](https://doi.org/10.7554/eLife.109450.1)** *eLife*, 14:RP109450, 2025.
+* Yang, Z., Yao, Z., **Tasmin, M.**, et al. **["Unveiling GPT-4V's hidden challenges behind high accuracy on USMLE questions: Observational Study."](https://doi.org/10.2196/65146)** *Journal of Medical Internet Research*, 27:e65146, 2025.
+* **Tasmin, M.**, et al. **["Assessment of Deep Learning Models for Human Activity Recognition on Multivariate Time Series Data and Non-targeted Adversarial Attack."](https://doi.org/10.1007/978-3-030-78124-8_6)** In *Advances in Intelligent Systems Research and Innovation*, SSDC vol. 379, Springer, pp. 129–159, 2022.
+* **Tasmin, M.**, Nag, P., Hoque, Z. T., Molla, M. M. **["Non-Newtonian effect on heat transfer and entropy generation of natural convection nanofluid flow inside a vertical wavy porous cavity."](https://doi.org/10.1007/s42452-021-04157-8)** *SN Applied Sciences*, 3:299, 2021.
 
 *Peer-Reviewed Conference and Workshop Papers*
 * **Tasmin, M.**, Green, A. **"Beyond Sequence-only Models: Leveraging Structural Constraints for Antibiotic Resistance Prediction in Sparse Genomic Datasets."** ICLR 2025 MLGenX Workshop, 2025.
 * **Tasmin, M.**, et al. **"Comparative Study of Classifiers on Human Activity Recognition by Different Feature Engineering Techniques."** IEEE 10th International Conference on Intelligent Systems, pp. 93–101, 2020.
 
 *Extended Abstracts*
-* **Tasmin, M.** **"Multi-Dimensional Aspect Analysis of Text Input through Human Emotion and Social Factors."** ACM UbiComp, pp. 1779–1781, 2018.
+* **Tasmin, M.** **["Multi-Dimensional Aspect Analysis of Text Input through Human Emotion and Social Factors."](https://doi.org/10.1145/3267305.3277817)** ACM UbiComp, pp. 1779–1781, 2018.
 
 Technical Skills
 ======

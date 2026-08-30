@@ -5,6 +5,7 @@ collection: experience
 company: "M2SYS Technology"
 location: "Dhaka, Bangladesh"
 dates: "Jul. 2020 – Feb. 2022"
+link: "https://www.m2sys.com/"
 excerpt: "Delivered production ML systems for biometric security and contextual recommendations."
 ---
 - Developed image spoofing detection pipelines and contextual recommendation systems using deep learning and NLP.

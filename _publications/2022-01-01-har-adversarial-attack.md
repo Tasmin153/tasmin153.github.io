@@ -4,7 +4,7 @@ collection: publications
 category: chapters
 permalink: /publications/har-adversarial-attack/
 date: 2022-01-01
-venue: "Advances in Intelligent Systems Research and Innovation, Studies in Systems, Decision and Control, vol. 379, Springer, pp. 129–140 (2022)"
+venue: "Advances in Intelligent Systems Research and Innovation, Studies in Systems, Decision and Control, vol. 379, Springer, pp. 129–159 (2022)"
 authors: "Mahbuba Tasmin, Sharif Uddin Ruman, Taoseef Ishtiak, Arif-ur-Rahman Chowdhury Suhan, Redwan Hasif, Shahnawaz Zulminan, Rashedur M. Rahman"
 excerpt: "Benchmarks deep learning classifiers for human activity recognition and studies the vulnerability of the resulting models to non-targeted adversarial attacks."
 paperurl: "https://doi.org/10.1007/978-3-030-78124-8_6"
