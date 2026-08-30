@@ -27,7 +27,7 @@ I’m particularly interested in:
 * **Resistance Forecast Project:** Integrating structural, evolutionary, and machine-learning features to predict variant impact.
 * **Evolutionary Augmentation:** Leveraging multi-species homologs to enhance sparse training data for protein-level models.
 
-You can read more about these in my [publications](/publications/) and [projects](/portfolio/).
+You can read more about these in my [publications](/publications/) and on the [research](/research/) page.
 
 ---
 

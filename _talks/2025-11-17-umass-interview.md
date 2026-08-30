@@ -7,7 +7,8 @@ venue: "UMass Amherst"
 date: 2025-11-17
 location: "Amherst, MA"
 excerpt: "Interview on applying machine learning to predict antibiotic resistance in disease treatment."
+link: "https://www.youtube.com/watch?v=O0k0XMh18G8"
 ---
 
 I spoke with UMass Amherst about my PhD research on using machine learning models to predict antibiotic resistance in disease treatment.  
-Video: https://www.youtube.com/watch?v=O0k0XMh18G8
+Video: [https://www.youtube.com/watch?v=O0k0XMh18G8](https://www.youtube.com/watch?v=O0k0XMh18G8)

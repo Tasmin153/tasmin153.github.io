@@ -49,6 +49,26 @@ This method increases diversity and robustness in low-data antibiotic resistance
 
 ---
 
+## Software and Data Resources
+
+<div class="highlight">
+<p class="highlight-title">BIG-TB Benchmark</p>
+<p>Open-source pipelines for preprocessing, training, cross-validation, robustness analysis, and interpretability evaluation across classical ML, deep neural networks, and biological foundation-model representations.</p>
+<img src="/images/big_tb_schematic.PNG" alt="BIG-TB pipeline schematic" style="margin-top:12px; border-radius:6px; border:1px solid var(--global-border-color); max-width:100%;">
+</div>
+
+<div class="highlight">
+<p class="highlight-title">Structure-Aware Variant Analysis Toolkit</p>
+<p>Research code for mapping mutations to protein structures, quantifying spatial clustering, and supporting structure-informed prediction and mechanistic interpretation.</p>
+</div>
+
+<div class="highlight">
+<p class="highlight-title">Resistance Forecasting in <em>Mycobacterium tuberculosis</em></p>
+<p>Reproducible data-preparation, multimodal feature-engineering, model-training, and temporal-evaluation workflows for prioritizing antibiotic-resistance variants of uncertain significance.</p>
+</div>
+
+---
+
 ##  Other Interests
 I’m also exploring:
 - Multi-modal integration of protein and genomic embeddings  

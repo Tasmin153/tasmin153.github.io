@@ -27,7 +27,7 @@ redirect_from:
 <p>Leveraging multi-species protein homologs to enhance sparse training data for structure-aware, protein-level models.</p>
 </div>
 
-Full details in [publications](/publications/) and [projects](/portfolio/).
+Full details in [publications](/publications/) and on the [research](/research/) page.
 
 ---
 
