@@ -32,7 +32,7 @@
 
 .page--home {
   width: 100%;
-  max-width: 780px;
+  max-width: 860px;
   margin: 0 auto;
   float: none;
 }
@@ -75,6 +75,50 @@
   color: var(--global-text-color);
   max-width: 52ch;
   margin: 0 0 20px;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: $monospace;
+  font-size: $type-size-8;
+  letter-spacing: 0.02em;
+  color: var(--global-accent-color);
+  background: var(--global-accent-soft-color);
+  border: 1px solid var(--global-accent-color);
+  border-radius: 20px;
+  padding: 5px 12px;
+  margin: 0 0 22px;
+}
+
+.status-badge::before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--global-accent-color);
+}
+
+/*
+   Pull quote / thesis statement
+   ========================================================================== */
+
+.pull-quote {
+  margin: 0;
+  padding: 8px 0 8px 26px;
+  border-left: 3px solid var(--global-accent-color);
+  font-family: $header-font-family;
+  font-style: italic;
+  font-size: $type-size-4;
+  line-height: 1.5;
+  color: var(--global-heading-color);
+}
+
+.pull-quote em {
+  font-style: normal;
+  color: var(--global-accent-color);
 }
 
 .meta-row {

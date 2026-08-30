@@ -6,7 +6,7 @@ site_theme               : "default"
 title                    : "Mahbuba Tasmin"
 title_separator          : "-"
 name                     : &name "Mahbuba Tasmin"
-description              : &description "Ph.D. Candidate at UMass Amherst | Computational Biology, Genomic ML, Antibiotic Resistance"
+description              : &description "Computational Biologist | ML for Genomics — building generalizable, interpretable models with biological signal. Protein language models, TB drug-resistance genomics, structural ML."
 url                      : "https://tasmin153.github.io"   # your GitHub Pages URL
 baseurl                  : ""                            # leave empty unless hosted under subpath
 repository               : "tasmin153/tasmin153.github.io"   # owner/repo slug for GitHub integrations

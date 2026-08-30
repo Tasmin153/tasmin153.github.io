@@ -9,6 +9,7 @@
     <div>
       {% if page.headline %}<h1>{{ page.headline | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
       {% if page.role %}<p class="role">{{ page.role | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
+      {% if page.status_badge %}<p class="status-badge">{{ page.status_badge }}</p>{% endif %}
       <div class="meta-row">
         {% if site.author.location %}<span>{{ site.author.location }}</span>{% endif %}
         {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>{% endif %}

@@ -5,9 +5,15 @@ layout: home
 eyebrow: "Ph.D. Candidate · Computer Science · UMass Amherst"
 headline: "Machine learning for the biology of *antibiotic resistance*"
 role: "I build interpretable, biology-grounded models for predicting drug resistance in *Mycobacterium tuberculosis* — combining sequence-based deep learning, evolutionary augmentation, and causal variant discovery. Advised by [Prof. Anna Green](https://people.cs.umass.edu/~annagreen/), SAGE Lab."
+status_badge: "Open to postdoctoral & research scientist roles · flexible start, 2027"
+description: "Computational Biologist | ML for Genomics — building generalizable, interpretable models with biological signal. Protein language models, TB drug-resistance genomics, structural ML."
 redirect_from:
   - /about/
   - /about.html
+---
+
+<blockquote class="pull-quote">Sequence-only ML models in genomics look impressive on benchmarks and then fail on new lineages, new genes, new populations. I build models that stay accurate and explainable by injecting the biology we already know — protein structure, evolutionary constraint, multi-omic context — into the model itself.</blockquote>
+
 ---
 
 <div class="section-head"><h2>Research highlights</h2></div>
@@ -34,32 +40,16 @@ Full details in [publications](/publications/) and on the [research](/research/)
 <div class="section-head"><h2>Recent milestones</h2></div>
 
 <ul class="timeline">
+<li><span class="tl-tag">Next</span><span>Preparing to propose my dissertation, <em>"Integrating Biological Signal to Improve Generalizability and Interpretability of Machine Learning in Genomics,"</em> in early Fall 2026.</span></li>
 <li><span class="tl-tag">2026</span><span>Submitted the <strong>FARM</strong> manuscript (biophysics-aware resistance forecasting) — under review at PNAS.</span></li>
 <li><span class="tl-tag">2026</span><span>Selected as a fully funded graduate participant for the Tapia Conference.</span></li>
 <li><span class="tl-tag">2026</span><span>Featured as a graduate researcher in UMass's <a href="https://www.youtube.com/watch?v=O0k0XMh18G8">AI at UMass</a> public-engagement campaign.</span></li>
+<li><span class="tl-tag">2025–26</span><span>Serving as elected Ph.D. Graduate Representative, Faculty Senate / CICS, UMass Amherst.</span></li>
+<li><span class="tl-tag">2026</span><span>Reviewing for <em>Bioinformatics Advances</em> and MLCSB (ISMB).</span></li>
 <li><span class="tl-tag">2025</span><span>Published a <a href="https://doi.org/10.7554/eLife.109450.1">research article</a> in eLife on predicting antibiotic resistance using protein structural context.</span></li>
 <li><span class="tl-tag">2025</span><span>Presented work at the ICLR MLGenX workshop and delivered a spotlight talk at MLCB.</span></li>
 <li><span class="tl-tag">2025</span><span>Completed my Master's in Computer Science and advanced to Ph.D. candidacy.</span></li>
-<li><span class="tl-tag">2026</span><span>Preparing to propose my dissertation, <em>"Integrating Biological Signal to Improve Generalizability and Interpretability of Machine Learning in Genomics,"</em> in early Fall.</span></li>
 </ul>
-
----
-
-<div class="two-col">
-<div>
-<div class="section-head"><h2>Teaching</h2></div>
-<p>Teaching Assistant for CS520 (Software Testing), helping students design test coverage, mutation analysis, and automated testing frameworks in Java. I also mentor undergraduate and Master's students in ML for biological sequences.</p>
-</div>
-<div>
-<div class="section-head"><h2>Beyond research</h2></div>
-<p>Clay crafts, photography, and event organization — from hand-built air-dry bowls to community programs for UMass graduate students.</p>
-<ul class="tags">
-<li class="tag">clay &amp; ceramics</li>
-<li class="tag">photography</li>
-<li class="tag">community organizing</li>
-</ul>
-</div>
-</div>
 
 ---
 

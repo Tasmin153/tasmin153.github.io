@@ -60,7 +60,7 @@ Selected Publications
 Full list with abstracts on the [Publications](/publications/) page.
 
 *Preprints and Manuscripts Under Review*
-* Tasmin, M., Barethiya, S., Wang, Y., Kang, L., Chen, J., Green, A. G. **["FARM: Forecasting Antibiotic Resistance in *Mycobacterium tuberculosis* Using Biophysics and Machine Learning."](https://doi.org/10.64898/2026.07.23.7403)** bioRxiv, 2026. Manuscript under review at *Proceedings of the National Academy of Sciences (PNAS)*.
+* Tasmin, M., Barethiya, S., Wang, Y., Kang, L., Chen, J., Green, A. G. **["FARM: Forecasting Antibiotic Resistance in *Mycobacterium tuberculosis* Using Biophysics and Machine Learning."](https://www.biorxiv.org/content/10.64898/2026.07.23.740359v1)** bioRxiv, 2026. Manuscript under review at *Proceedings of the National Academy of Sciences (PNAS)*.
 * Tasmin, M., Mohanty, S., Kulkarni, S., Farhat, M. R., Green, A. G. **["BIG-TB: A Benchmark for Prediction and Interpretability of Sequence-Based Machine Learning Using *Mycobacterium tuberculosis* Genomes."](https://www.biorxiv.org/content/10.64898/2026.01.30.702134v1.abstract)** bioRxiv, 2026. Manuscript submitted; under revision following peer review.
 
 *Peer-Reviewed Journal Articles & Book Chapters*
