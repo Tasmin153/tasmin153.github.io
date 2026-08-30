@@ -2,19 +2,18 @@
    DARK THEME
    ========================================================================== */
 
-/* Color codes used for the theme */
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+/* Editorial "paper" palette, inverted for dark mode */
+$paper-dark                 : #1B1E1B;
+$paper-dark-raised          : #22261F;
+$ink-dark                   : #ECEEE7;
+$ink-soft-dark              : #C7CCC2;
+$muted-dark                 : #8B9086;
+$line-dark                  : #33362F;
+$spruce-light               : #6FB39A;
+$spruce-light-hover         : mix(#fff, #6FB39A, 20%);
+$spruce-deep                : mix(#000, #6FB39A, 45%);
+$spruce-soft-dark           : #22322B;
+$clay-dark                  : #C9A46F;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -24,7 +23,7 @@ $success-color              : #62c462;
 $warning-color              : #f89406;
 
 /* Other basic settings for the template */
-$border-radius              : 4px;
+$border-radius              : 5px;
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $global-transition          : all 0.2s ease-in-out;
 $masthead-height            : 70px;
@@ -35,20 +34,24 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$background};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
-    --global-thead-color                : #{$background-lighter};
+    --global-base-color                 : #{$spruce-deep};
+    --global-bg-color                   : #{$paper-dark};
+    --global-footer-bg-color            : #{$paper-dark-raised};
+    --global-border-color               : #{$line-dark};
+    --global-dark-border-color          : #{mix(#fff, $line-dark, 15%)};
+    --global-code-background-color      : #{$paper-dark-raised};
+    --global-code-text-color            : #{$ink-soft-dark};
+    --global-fig-caption-color          : #{$muted-dark};
+    --global-link-color                 : #{$spruce-light};
+    --global-link-color-hover           : #{$spruce-light-hover};
+    --global-link-color-visited         : #{$spruce-light};
+    --global-masthead-link-color        : #{$ink-soft-dark};
+    --global-masthead-link-color-hover  : #{$spruce-light};
+    --global-text-color                 : #{$ink-soft-dark};
+    --global-text-color-light           : #{$muted-dark};
+    --global-thead-color                : #{$line-dark};
+    --global-accent-color               : #{$spruce-light};
+    --global-accent-soft-color          : #{$spruce-soft-dark};
+    --global-secondary-accent-color     : #{$clay-dark};
+    --global-heading-color              : #{$ink-dark};
 }

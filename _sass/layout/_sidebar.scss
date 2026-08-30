@@ -100,7 +100,7 @@
     aspect-ratio: 1 / 1;
     object-fit: cover;
     object-position: center 25%; // move crop downward so top of head shows
-    border-radius: 50%;
+    border-radius: 6px;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -133,12 +133,16 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
+  font-family: $header-font-family;
   font-size: $type-size-5;
+  font-weight: 500;
 }
 
 .sidebar .author__desktop {
   display: none;
+  font-family: $monospace;
+  font-size: $type-size-7;
+  color: var(--global-text-color-light);
   @media screen and (min-width: 1024px) {
     display: block;
   }
@@ -259,11 +263,14 @@
     padding-top: 2px;
     padding-bottom: 2px;
     color: inherit;
-    font-size: $type-size-5;
+    font-family: $monospace;
+    font-size: $type-size-7;
     text-decoration: none;
 
     &:hover {
+      color: var(--global-accent-color);
       text-decoration: underline;
+      text-decoration-color: var(--global-border-color);
     }
   }
 }

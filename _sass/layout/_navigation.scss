@@ -182,6 +182,10 @@
     margin: 0 1rem;
     padding: 0.5rem 0;
     color: var(--global-masthead-link-color);
+    font-family: $monospace;
+    font-size: $type-size-7;
+    letter-spacing: 0.02em;
+    text-transform: lowercase;
     text-decoration: none;
 
     &:hover {
@@ -241,9 +245,9 @@
         content: "";
         position: absolute;
         left: 0;
-        bottom: 0;
-        height: 4px;
-        background: var(--global-border-color);
+        bottom: 3px;
+        height: 1px;
+        background: var(--global-accent-color);
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;

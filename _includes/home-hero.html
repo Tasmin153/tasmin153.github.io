@@ -1,0 +1,22 @@
+{% include base_path %}
+
+<section class="hero">
+  {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+  <div class="hero-grid">
+    {% if site.author.avatar %}
+      <img class="portrait" src="{{ site.author.avatar | prepend: "/images/" | relative_url }}" alt="{{ site.author.name }}">
+    {% endif %}
+    <div>
+      {% if page.headline %}<h1>{{ page.headline | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+      {% if page.role %}<p class="role">{{ page.role | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
+      <div class="meta-row">
+        {% if site.author.location %}<span>{{ site.author.location }}</span>{% endif %}
+        {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
+        {% if site.author.orcid %}<a href="{{ site.author.orcid }}" target="_blank" rel="noopener">ORCID</a>{% endif %}
+        {% if site.author.github %}<a href="{% if site.author.github contains '://' %}{{ site.author.github }}{% else %}https://github.com/{{ site.author.github }}{% endif %}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+        {% if site.author.linkedin %}<a href="{% if site.author.linkedin contains '://' %}{{ site.author.linkedin }}{% else %}https://www.linkedin.com/in/{{ site.author.linkedin }}{% endif %}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+        {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email</a>{% endif %}
+      </div>
+    </div>
+  </div>
+</section>

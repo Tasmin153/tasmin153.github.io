@@ -1,83 +1,82 @@
 ---
 permalink: /
 title: "Computational Biology & Machine Learning"
-author_profile: true
+layout: home
+eyebrow: "Ph.D. Candidate · Computer Science · UMass Amherst"
+headline: "Machine learning for the biology of *antibiotic resistance*"
+role: "I build interpretable, biology-grounded models for predicting drug resistance in *Mycobacterium tuberculosis* — combining sequence-based deep learning, evolutionary augmentation, and causal variant discovery. Advised by [Prof. Anna Green](https://people.cs.umass.edu/~annagreen/), SAGE Lab."
 redirect_from:
   - /about/
   - /about.html
 ---
 
-👋 Welcome!
-I’m **Mahbuba Tasmin**, a Ph.D. candidate in Computer Science at the University of Massachusetts Amherst, advised by [Prof. Anna Green](https://people.cs.umass.edu/~annagreen/). I work in the SAGE Lab (Statistical and Genomic Evidence Lab), where my research bridges **machine learning**, **computational biology**, and **antibiotic resistance genomics**.
+<div class="section-head"><h2>Research highlights</h2></div>
 
-My current focus is on building interpretable, biology-grounded models for predicting drug resistance in *Mycobacterium tuberculosis* — combining sequence-based deep learning, evolutionary augmentation, and causal variant discovery.
+<div class="highlight">
+<p class="highlight-title">BIG-TB Benchmark</p>
+<p>Developing a unified dataset and evaluation framework spanning 17,000 isolates and 11 drugs, built to compare resistance-prediction models across genomic and structural modalities on equal footing.</p>
+</div>
 
-I’m particularly interested in:
+<div class="highlight">
+<p class="highlight-title">Resistance Forecast Project</p>
+<p>Integrating structural, evolutionary, and machine-learning features to predict the functional impact of individual resistance variants.</p>
+</div>
 
-* Genomic and protein-based ML for resistance prediction
-* Causal interpretability and structural biology
-* Cross-species learning and data augmentation
-* Benchmark dataset design for biological ML models
+<div class="highlight">
+<p class="highlight-title">Evolutionary Augmentation</p>
+<p>Leveraging multi-species protein homologs to enhance sparse training data for structure-aware, protein-level models.</p>
+</div>
 
----
-
-### 🔬 Research Highlights
-
-* BIG-TB Benchmark (17K isolates, 11 drugs): Developing a unified dataset and evaluation framework for resistance prediction across modalities.
-* Resistance Forecast Project: Integrating structural, evolutionary, and machine-learning features to predict variant impact.
-* Evolutionary Augmentation: Leveraging multi-species homologs to enhance sparse training data for protein-level models.
-
-You can read more about these in my [publications](/publications/) and [projects](/portfolio/).
+Full details in [publications](/publications/) and [projects](/portfolio/).
 
 ---
 
-### Year in Review (2025)
+<div class="section-head"><h2>2025, in review</h2></div>
 
-This year marked a series of important academic and research milestones:
-
-* Published a research article in [eLife](https://doi.org/10.7554/eLife.109450.1) on predicting antibiotic resistance using protein structural context
-* Presented work at ICLR (MLGenX Workshop) on structure-aware machine learning models
-* Delivered a lightning/spotlight talk at the Machine Learning for Computational Biology (MLCB) workshop
-* Completed my M.S. in Computer Science, with thesis research aligned with my PhD work
-* Advanced to PhD candidacy
-* Currently preparing two journal manuscripts focused on resistance forecasting and interpretable biological ML
-
-Overall, this year represented a transition from exploratory experimentation to defining a focused research agenda at the intersection of machine learning, structural bioinformatics, and infectious disease genomics.
+<ul class="timeline">
+<li><span class="tl-tag">eLife</span><span>Published a <a href="https://doi.org/10.7554/eLife.109450.1">research article</a> on predicting antibiotic resistance using protein structural context.</span></li>
+<li><span class="tl-tag">ICLR</span><span>Presented work at the MLGenX workshop on structure-aware machine learning models.</span></li>
+<li><span class="tl-tag">MLCB</span><span>Delivered a spotlight talk at the Machine Learning for Computational Biology workshop.</span></li>
+<li><span class="tl-tag">M.S.</span><span>Completed my Master's in Computer Science, thesis aligned with PhD research.</span></li>
+<li><span class="tl-tag">PhD</span><span>Advanced to Ph.D. candidacy.</span></li>
+<li><span class="tl-tag">In prep</span><span>Preparing two journal manuscripts on resistance forecasting and interpretable biological ML.</span></li>
+</ul>
 
 ---
 
-### 📚 Teaching & Mentorship
-
-I serve as a Teaching Assistant for CS520 (Software Testing) at UMass, where I help students design and evaluate test coverage, mutation analysis, and automated testing frameworks in Java.
-I also mentor undergraduate and master’s students in research on ML for biological sequences.
+<div class="two-col">
+<div>
+<div class="section-head"><h2>Teaching</h2></div>
+<p>Teaching Assistant for CS520 (Software Testing), helping students design test coverage, mutation analysis, and automated testing frameworks in Java. I also mentor undergraduate and Master's students in ML for biological sequences.</p>
+</div>
+<div>
+<div class="section-head"><h2>Beyond research</h2></div>
+<p>Clay crafts, photography, and event organization — from hand-built air-dry bowls to community programs for UMass graduate students.</p>
+<ul class="tags">
+<li class="tag">clay &amp; ceramics</li>
+<li class="tag">photography</li>
+<li class="tag">community organizing</li>
+</ul>
+</div>
+</div>
 
 ---
 
-###  Beyond Research
-
-Outside the lab, I enjoy clay crafts, photography, and event organization— from handmade air-dry clay bowls to campus community events. I also contribute to graduate student initiatives at UMass through organizing academic and social programs.
-
----
-
-### 📄 Quick Links
-
-### Schedule a Meeting
-
-<div style="max-width: 750px;">
+<div class="cta-box" style="flex-direction: column; align-items: stretch;">
+<p>Want to talk research, collaboration, or TB genomics?<br><span style="color: var(--global-text-color-light); font-size: 13px;">Book 30 minutes, no agenda required.</span></p>
+<div style="max-width: 750px; width: 100%;">
   <iframe
     src="https://scheduler.zoom.us/mahbuba-tasmin/30-mins-with-mahbuba?embed=true"
     frameborder="0"
     style="width: 100%; height: 560px; border: 0;">
   </iframe>
 </div>
+</div>
 
 ---
 
-* [CV (PDF)](/files/Mahbuba_cv_FA25.pdf)
-
-
+[CV (PDF)](/files/Mahbuba_cv_FA25.pdf)
 
 ---
 
-This site is built with the [Academic Pages template](https://github.com/academicpages/academicpages.github.io), powered by [Jekyll](https://jekyllrb.com/) and hosted freely on [GitHub Pages](https://pages.github.com/).
-
+<p style="font-size: 13px; color: var(--global-text-color-light);">This site is built with the <a href="https://github.com/academicpages/academicpages.github.io">Academic Pages template</a>, powered by <a href="https://jekyllrb.com/">Jekyll</a> and hosted freely on <a href="https://pages.github.com/">GitHub Pages</a>.</p>
