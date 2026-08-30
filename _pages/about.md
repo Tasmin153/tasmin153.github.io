@@ -1,7 +1,6 @@
 ---
 permalink: /about/
 title: "Mahbuba Tasmin | Computational Biology & Machine Learning"
-author_profile: true
 redirect_from:
   - /about/
   - /about.html

@@ -4,6 +4,20 @@
    matching the paper/spruce mockup aesthetic.
    ========================================================================== */
 
+/*
+   Full-width content when no sidebar is rendered
+   ========================================================================== */
+
+.page--full,
+.archive--full {
+  @include breakpoint($large) {
+    float: none;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
 .section-head {
   margin-bottom: 26px;
 
