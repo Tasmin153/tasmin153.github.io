@@ -61,7 +61,7 @@ Full list with abstracts on the [Publications](/publications/) page.
 
 *Preprints and Manuscripts Under Review*
 * Tasmin, M., Barethiya, S., Wang, Y., Kang, L., Chen, J., Green, A. G. **["FARM: Forecasting Antibiotic Resistance in *Mycobacterium tuberculosis* Using Biophysics and Machine Learning."](https://doi.org/10.64898/2026.07.23.7403)** bioRxiv, 2026. Manuscript under review at *Proceedings of the National Academy of Sciences (PNAS)*.
-* Tasmin, M., Mohanty, S., Kulkarni, S., Farhat, M. R., Green, A. G. **"BIG-TB: A Benchmark for Prediction and Interpretability of Sequence-Based Machine Learning Using *Mycobacterium tuberculosis* Genomes."** bioRxiv, 2026. Manuscript submitted; under revision following peer review.
+* Tasmin, M., Mohanty, S., Kulkarni, S., Farhat, M. R., Green, A. G. **["BIG-TB: A Benchmark for Prediction and Interpretability of Sequence-Based Machine Learning Using *Mycobacterium tuberculosis* Genomes."](https://www.biorxiv.org/content/10.64898/2026.01.30.702134v1.abstract)** bioRxiv, 2026. Manuscript submitted; under revision following peer review.
 
 *Peer-Reviewed Journal Articles & Book Chapters*
 * Green, A. G., **Tasmin, M.**, Vargas Jr., R., Farhat, M. R. **["The structural context of mutations in proteins predicts their effect on antibiotic resistance."](https://doi.org/10.7554/eLife.109450.1)** *eLife*, 14:RP109450, 2025.
@@ -70,8 +70,8 @@ Full list with abstracts on the [Publications](/publications/) page.
 * **Tasmin, M.**, Nag, P., Hoque, Z. T., Molla, M. M. **["Non-Newtonian effect on heat transfer and entropy generation of natural convection nanofluid flow inside a vertical wavy porous cavity."](https://doi.org/10.1007/s42452-021-04157-8)** *SN Applied Sciences*, 3:299, 2021.
 
 *Peer-Reviewed Conference and Workshop Papers*
-* **Tasmin, M.**, Green, A. **"Beyond Sequence-only Models: Leveraging Structural Constraints for Antibiotic Resistance Prediction in Sparse Genomic Datasets."** ICLR 2025 MLGenX Workshop, 2025.
-* **Tasmin, M.**, et al. **"Comparative Study of Classifiers on Human Activity Recognition by Different Feature Engineering Techniques."** IEEE 10th International Conference on Intelligent Systems, pp. 93–101, 2020.
+* **Tasmin, M.**, Green, A. **["Beyond Sequence-only Models: Leveraging Structural Constraints for Antibiotic Resistance Prediction in Sparse Genomic Datasets."](https://openreview.net/pdf?id=cwi0o5rrVG)** ICLR 2025 MLGenX Workshop, 2025.
+* **Tasmin, M.**, et al. **["Comparative Study of Classifiers on Human Activity Recognition by Different Feature Engineering Techniques."](https://ieeexplore.ieee.org/abstract/document/9199934)** IEEE 10th International Conference on Intelligent Systems, pp. 93–101, 2020.
 
 *Extended Abstracts*
 * **Tasmin, M.** **["Multi-Dimensional Aspect Analysis of Text Input through Human Emotion and Social Factors."](https://doi.org/10.1145/3267305.3277817)** ACM UbiComp, pp. 1779–1781, 2018.
