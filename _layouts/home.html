@@ -10,11 +10,14 @@ layout: default
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
 
     <div class="page__inner-wrap">
-      {% include home-hero.html %}
-
-      <section class="page__content" itemprop="text">
-        {{ content }}
-      </section>
+      <div class="home-split">
+        <div class="home-split__profile">
+          {% include home-hero.html %}
+        </div>
+        <section class="home-split__content page__content" itemprop="text">
+          {{ content }}
+        </section>
+      </div>
     </div>
   </article>
 </div>

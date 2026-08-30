@@ -18,19 +18,21 @@ redirect_from:
 
 <div class="section-head"><h2>Research highlights</h2></div>
 
-<div class="highlight">
+<div class="highlight-grid">
+<div class="highlight-card">
 <p class="highlight-title">BIG-TB Benchmark</p>
 <p>Developing a unified dataset and evaluation framework spanning 17,000 isolates and 11 drugs, built to compare resistance-prediction models across genomic and structural modalities on equal footing.</p>
 </div>
 
-<div class="highlight">
+<div class="highlight-card">
 <p class="highlight-title">Resistance Forecast Project</p>
 <p>Integrating structural, evolutionary, and machine-learning features to predict the functional impact of individual resistance variants.</p>
 </div>
 
-<div class="highlight">
+<div class="highlight-card">
 <p class="highlight-title">Evolutionary Augmentation</p>
 <p>Leveraging multi-species protein homologs to enhance sparse training data for structure-aware, protein-level models.</p>
+</div>
 </div>
 
 Full details in [publications](/publications/) and on the [research](/research/) page.
@@ -39,7 +41,7 @@ Full details in [publications](/publications/) and on the [research](/research/)
 
 <div class="section-head"><h2>Recent milestones</h2></div>
 
-<ul class="timeline">
+<ul class="timeline timeline--grid">
 <li><span class="tl-tag">Next</span><span>Preparing to propose my dissertation, <em>"Integrating Biological Signal to Improve Generalizability and Interpretability of Machine Learning in Genomics,"</em> in early Fall 2026.</span></li>
 <li><span class="tl-tag">2026</span><span>Submitted the <strong>FARM</strong> manuscript (biophysics-aware resistance forecasting) — under review at PNAS.</span></li>
 <li><span class="tl-tag">2026</span><span>Selected as a fully funded graduate participant for the Tapia Conference.</span></li>
