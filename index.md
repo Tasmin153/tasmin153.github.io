@@ -4,7 +4,7 @@ title: "Computational Biology & Machine Learning"
 layout: home
 eyebrow: "Ph.D. Candidate · Computer Science · UMass Amherst"
 headline: "Machine learning for the biology of *antibiotic resistance*"
-role: "I build interpretable, biology-grounded models for predicting drug resistance in *Mycobacterium tuberculosis* — combining sequence-based deep learning, evolutionary augmentation, and causal variant discovery. Advised by [Prof. Anna Green](https://people.cs.umass.edu/~annagreen/), SAGE Lab."
+role: "Ph.D. candidate studying drug resistance in *Mycobacterium tuberculosis*. Advised by [Prof. Anna Green](https://people.cs.umass.edu/~annagreen/), SAGE Lab."
 status_badge: "Open to postdoctoral & research scientist roles · flexible start, 2027"
 description: "Computational Biologist | ML for Genomics — building generalizable, interpretable models with biological signal. Protein language models, TB drug-resistance genomics, structural ML."
 redirect_from:
