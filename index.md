@@ -21,12 +21,12 @@ redirect_from:
 <div class="highlight-grid">
 <div class="highlight-card">
 <p class="highlight-title">BIG-TB Benchmark</p>
-<p>Developing a unified dataset and evaluation framework spanning 17,000 isolates and 11 drugs, built to compare resistance-prediction models across genomic and structural modalities on equal footing.</p>
+<p>Led the protein-side benchmark of a unified dataset and evaluation framework spanning nearly 18,000 isolates and 11 drugs, built to compare resistance-prediction models on equal footing, including on lineages they never saw in training.</p>
 </div>
 
 <div class="highlight-card">
 <p class="highlight-title">Resistance Forecast Project</p>
-<p>Integrating structural, evolutionary, and machine-learning features to predict the functional impact of individual resistance variants.</p>
+<p>Forecasting which uncertain variants will later be reclassified as resistance-causing, by combining 3D structure, Rosetta energetics, and protein-language-model features, then scoring 4,525 variants for follow-up.</p>
 </div>
 
 <div class="highlight-card">

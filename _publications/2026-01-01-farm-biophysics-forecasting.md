@@ -10,4 +10,4 @@ excerpt: "Fuses protein thermostability and biophysical energetics with machine 
 paperurl: "https://www.biorxiv.org/content/10.64898/2026.07.23.740359v1"
 citation: "Tasmin, M., Barethiya, S., Wang, Y., Kang, L., Chen, J., Green, A.G. FARM: Forecasting Antibiotic Resistance in Mycobacterium tuberculosis using biophysics and machine learning. bioRxiv (2026)."
 ---
-FARM integrates protein structure, Rosetta energetics, evolutionary features, and protein-language-model signals into interpretable models for mutation-level antibiotic resistance prediction, aimed at prioritizing variants of uncertain significance where labeled data is sparse.
+FARM integrates protein structure, Rosetta energetics, evolutionary features, and protein-language-model signals into interpretable models for mutation-level antibiotic resistance prediction, aimed at prioritizing variants of uncertain significance where labeled data is sparse. The model is trained on WHO-2021 variants and evaluated prospectively against the variants reclassified in the WHO-2023 catalogue.

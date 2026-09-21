@@ -10,4 +10,4 @@ excerpt: "A unified 17K-isolate benchmark dataset for genotype-to-phenotype pred
 paperurl: "https://www.biorxiv.org/content/10.64898/2026.01.30.702134v1.abstract"
 citation: "Tasmin, M., Mohanty, S., Kulkarni, S., Farhat, M.R., Green, A.G. BIG-TB: A benchmark for prediction and interpretability of sequence-based machine learning using Mycobacterium tuberculosis genomes. bioRxiv (2026)."
 ---
-BIG-TB provides standardized train/test splits, harmonized variant annotation, and interpretability metrics for model comparison across classical ML, deep neural networks, and biological foundation-model representations. It supports research into causal variant recovery and cross-drug generalization across 11 WHO-priority antibiotics and roughly 17,000 *M. tuberculosis* isolates.
+BIG-TB provides standardized train/test splits, harmonized variant annotation, and interpretability metrics for model comparison across classical ML, deep neural networks, and biological foundation-model representations. It supports research into causal variant recovery and cross-drug generalization across 11 WHO-priority antibiotics and nearly 18,000 (17,942) *M. tuberculosis* isolates.
