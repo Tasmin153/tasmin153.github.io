@@ -87,7 +87,7 @@ Technical Skills
 
 Selected Predictive Biology Research Contributions
 ======
-* **BIG-TB** (2024–Present) — Led benchmark design and protein-model analyses for approximately 17,000 *Mycobacterium tuberculosis* isolates across 11 antibiotics, including defensible train/test splits, classical and deep-learning baselines, interpretability evaluation, causal-variant recovery, and robustness analysis.
+* **BIG-TB** (2024–Present) — Led benchmark design and protein-model analyses for 17,942 *Mycobacterium tuberculosis* isolates across 11 antibiotics, including defensible train/test splits, classical and deep-learning baselines, interpretability evaluation, causal-variant recovery, and robustness analysis.
 * **Biophysics-Aware Resistance Forecasting** (2024–Present) — Developed interpretable models integrating protein structure, Rosetta energetics, evolutionary features, and protein-language-model signals to predict mutation-level antibiotic resistance under data scarcity.
 * **Evolutionary Protein Data Augmentation** (2025–Present) — Designed and evaluated homolog-aware and biologically constrained augmentation strategies for mutation-sensitive prediction, including pretrained protein language-model scoring, transfer-learning experiments, and controlled ablations across sparse biological datasets.
 

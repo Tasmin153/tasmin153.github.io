@@ -21,7 +21,7 @@ redirect_from:
 <div class="highlight-grid">
 <div class="highlight-card">
 <p class="highlight-title">BIG-TB Benchmark</p>
-<p>Led the protein-side benchmark of a unified dataset and evaluation framework spanning nearly 18,000 isolates and 11 drugs, built to compare resistance-prediction models on equal footing, including on lineages they never saw in training.</p>
+<p>Led the protein-side benchmark of a unified dataset and evaluation framework spanning 17,942 isolates and 11 drugs, built to compare resistance-prediction models on equal footing, including on lineages they never saw in training.</p>
 </div>
 
 <div class="highlight-card">
