@@ -27,7 +27,7 @@ author:
   email            : "mtasmin@umass.edu"
 
   # Academic websites
-  googlescholar    : "https://scholar.google.com/citations?user=kiMgu3EAAAAJ&hl=en&authuser=1"  # replace with your Scholar ID
+  googlescholar    : "https://scholar.google.com/citations?user=kiMgu3EAAAAJ&hl=en"  # replace with your Scholar ID
   orcid            : "https://orcid.org/0000-0003-1884-8838"
   # researchgate     : "https://www.researchgate.net/profile/Mahbuba-Tasmin"
   # pubmed           : 
@@ -65,6 +65,13 @@ publication_category:
   abstracts:
     title: "Extended Abstracts"
 
+# Topic groups used by the publications page (order = display order).
+# Each entry in _publications sets `topic:` to one of these keys.
+publication_topics:
+  resistance: "Antibiotic resistance & genomic ML"
+  medical-ai: "Language models & medical AI"
+  earlier: "Earlier work in sensing & modeling"
+
 # ─────────────────────────────────────────────
 # Site Options
 # ─────────────────────────────────────────────
@@ -90,7 +97,7 @@ social:
   name: "Mahbuba Tasmin"
   links:
     - "https://github.com/Tasmin153"
-    - "https://scholar.google.com/citations?user=kiMgu3EAAAAJ&hl=en&authuser=1"
+    - "https://scholar.google.com/citations?user=kiMgu3EAAAAJ&hl=en"
     - "https://www.linkedin.com/in/mahbuba-tasmin/"
     # - "https://www.researchgate.net/profile/Mahbuba-Tasmin"
 

@@ -2,6 +2,7 @@
 title: "Protein Structure-Informed Regularized Linear Model Outperforms ESM for Predicting Antibiotic Resistance"
 collection: publications
 category: conferences
+topic: resistance
 permalink: /publications/fusedridge-models/
 date: 2024-11-15
 venue: "Program in Quantitative Genomics Conference (PQG), Harvard University"

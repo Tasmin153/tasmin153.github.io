@@ -2,6 +2,7 @@
 title: "BIG-TB: A Benchmark for Prediction and Interpretability of Sequence-Based Machine Learning Using *Mycobacterium tuberculosis* Genomes"
 collection: publications
 category: preprints
+topic: resistance
 permalink: /publications/bigtb-benchmark/
 date: 2026-01-01
 venue: "bioRxiv (2026); manuscript submitted, under revision following peer review"

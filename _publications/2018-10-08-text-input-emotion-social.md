@@ -2,6 +2,7 @@
 title: "Multi-Dimensional Aspect Analysis of Text Input through Human Emotion and Social Factors"
 collection: publications
 category: abstracts
+topic: earlier
 permalink: /publications/text-input-emotion-social/
 date: 2018-10-08
 venue: "ACM International Joint Conference and Symposium on Pervasive and Ubiquitous Computing (UbiComp/ISWC '18 Adjunct), pp. 1779–1781, Singapore"

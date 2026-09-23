@@ -2,6 +2,7 @@
 title: "Assessment of Deep Learning Models for Human Activity Recognition on Multi-Variate Time Series Data and Non-Targeted Adversarial Attack"
 collection: publications
 category: chapters
+topic: earlier
 permalink: /publications/har-adversarial-attack/
 date: 2022-01-01
 venue: "Advances in Intelligent Systems Research and Innovation, Studies in Systems, Decision and Control, vol. 379, Springer, pp. 129–159 (2022)"

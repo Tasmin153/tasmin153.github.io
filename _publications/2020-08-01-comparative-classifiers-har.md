@@ -2,6 +2,7 @@
 title: "Comparative Study of Classifiers on Human Activity Recognition by Different Feature Engineering Techniques"
 collection: publications
 category: conferences
+topic: earlier
 permalink: /publications/comparative-classifiers-har/
 date: 2020-08-01
 venue: "Proceedings of the 2020 IEEE 10th International Conference on Intelligent Systems, pp. 93–101"

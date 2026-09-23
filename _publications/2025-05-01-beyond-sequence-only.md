@@ -2,6 +2,7 @@
 title: "Beyond Sequence-Only Models: Leveraging Structural Constraints for Antibiotic Resistance Prediction in Sparse Genomic Datasets"
 collection: publications
 category: workshops
+topic: resistance
 permalink: /publications/beyond-sequence-only/
 date: 2025-05-01
 venue: "ICLR 2025 MLGenX Workshop"

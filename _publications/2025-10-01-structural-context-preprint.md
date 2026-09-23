@@ -2,6 +2,7 @@
 title: "The Structural Context of Mutations in Proteins Predicts Their Effect on Antibiotic Resistance"
 collection: publications
 category: manuscripts
+topic: resistance
 permalink: /publications/structural-context/
 date: 2025-09-23
 venue: "eLife 14:RP109450 (2025)"

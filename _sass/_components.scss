@@ -743,3 +743,34 @@
   letter-spacing: 0.03em;
   color: var(--global-text-color-light);
 }
+
+/*
+   Publications page: topic headings and type badges
+   ========================================================================== */
+
+.pub-topic {
+  margin-top: 2.2em;
+}
+
+.pub-topic:first-of-type {
+  margin-top: 1em;
+}
+
+.pub-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  margin: 0 0 0.6em;
+}
+
+.pub-kind {
+  font-family: $monospace;
+  font-size: 11.5px;
+  font-style: normal;
+  color: var(--global-accent-color);
+  background: var(--global-accent-soft-color);
+  padding: 2px 8px;
+  border-radius: 3px;
+  white-space: nowrap;
+}

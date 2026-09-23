@@ -4,32 +4,39 @@ title: "Publications"
 permalink: /publications/
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="https://scholar.google.com/citations?user=kiMgu3EAAAAJ&hl=en&authuser=1">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
 {% endif %}
 
+{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
 
+{% for topic in site.publication_topics %}
+  {% assign topic_shown = false %}
+  {% for post in sorted_pubs %}
+    {% unless post.topic == topic[0] %}
+      {% continue %}
+    {% endunless %}
+    {% unless topic_shown %}
+      <h2 class="pub-topic">{{ topic[1] }}</h2><hr />
+      {% assign topic_shown = true %}
+    {% endunless %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %}
 
+{% comment %} Anything without a recognised topic still shows up, so no entry is ever hidden. {% endcomment %}
+{% assign other_shown = false %}
+{% for post in sorted_pubs %}
+  {% assign known = false %}
+  {% for topic in site.publication_topics %}
+    {% if post.topic == topic[0] %}{% assign known = true %}{% endif %}
+  {% endfor %}
+  {% if known %}{% continue %}{% endif %}
+  {% unless other_shown %}
+    <h2 class="pub-topic">Other publications</h2><hr />
+    {% assign other_shown = true %}
+  {% endunless %}
+  {% include archive-single.html %}
+{% endfor %}

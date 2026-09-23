@@ -2,6 +2,7 @@
 title: "Non-Newtonian Effect on Heat Transfer and Entropy Generation of Natural Convection Nanofluid Flow Inside a Vertical Wavy Porous Cavity"
 collection: publications
 category: manuscripts
+topic: earlier
 permalink: /publications/non-newtonian-nanofluid/
 date: 2021-02-10
 venue: "SN Applied Sciences, 3:299 (2021)"
