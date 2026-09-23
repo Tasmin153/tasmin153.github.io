@@ -44,8 +44,8 @@ redirect_from:
 <div><p>Forecasting which uncertain variants will later be reclassified as resistance-causing, by combining 3D structure, Rosetta energetics, and protein-language-model features, then scoring 4,525 variants for follow-up.</p><ul class="tags"><li class="tag">Rosetta</li><li class="tag">Random forest</li><li class="tag">Protein LMs</li></ul><a href="/research/"><img class="home-proj__fig" src="/images/home_farm_thumb.jpg" alt="FARM framework: multimodal feature integration, TB mutation resistance forecasting, and performance evaluation" loading="lazy"></a></div>
 </div>
 <div class="home-proj">
-<div><p class="home-proj__kind">Data augmentation</p><h3>Evolutionary augmentation</h3></div>
-<div><p>Leveraging multi-species protein homologs to enhance sparse training data for structure-aware, protein-level models.</p><ul class="tags"><li class="tag">UniProt</li><li class="tag">ESM-2</li><li class="tag">Leakage-aware evaluation</li></ul></div>
+<div><p class="home-proj__kind">Structure-aware models</p><h3>Fused Ridge &amp; 3D clustering</h3></div>
+<div><p>Two published papers on putting protein structure into the model. A structure-regularized linear model (ICLR MLGenX 2025) reached a mean AUC of 0.766 across nine genes, ahead of plain ridge (0.755) and zero-shot ESM-2 (0.603). An eLife 2025 classifier showed that 3D proximity predicts resistance mutations better than sequence distance (F1 94.6% vs 92.8%).</p><ul class="tags"><li class="tag">Fused ridge</li><li class="tag">PDB / AlphaFold</li><li class="tag">Logistic regression</li></ul><a href="/research/"><img class="home-proj__fig" src="/images/home_elife_thumb.jpg" alt="Figure from Green, Tasmin et al. eLife 2025: the Getis-Ord workflow and the clustering of resistance mutations on the KatG structure" loading="lazy"></a></div>
 </div>
 </div>
 </section>
