@@ -1,0 +1,10 @@
+{% comment %} Sets `pub_kind` from the entry's category. Expects `post` to be in scope. {% endcomment %}
+{% case post.category %}
+  {% when 'preprints' %}{% assign pub_kind = 'Preprint' %}
+  {% when 'manuscripts' %}{% assign pub_kind = 'Journal article' %}
+  {% when 'chapters' %}{% assign pub_kind = 'Book chapter' %}
+  {% when 'conferences' %}{% assign pub_kind = 'Conference' %}
+  {% when 'workshops' %}{% assign pub_kind = 'Workshop paper' %}
+  {% when 'abstracts' %}{% assign pub_kind = 'Extended abstract' %}
+  {% else %}{% assign pub_kind = '' %}
+{% endcase %}

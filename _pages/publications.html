@@ -19,11 +19,13 @@ permalink: /publications/
       {% continue %}
     {% endunless %}
     {% unless topic_shown %}
-      <h2 class="pub-topic">{{ topic[1] }}</h2><hr />
+      <h2 class="pub-topic">{{ topic[1] }}</h2>
+      <ul class="pub-list">
       {% assign topic_shown = true %}
     {% endunless %}
-    {% include archive-single.html %}
+    {% include pub-row.html %}
   {% endfor %}
+  {% if topic_shown %}</ul>{% endif %}
 {% endfor %}
 
 {% comment %} Anything without a recognised topic still shows up, so no entry is ever hidden. {% endcomment %}
@@ -35,8 +37,10 @@ permalink: /publications/
   {% endfor %}
   {% if known %}{% continue %}{% endif %}
   {% unless other_shown %}
-    <h2 class="pub-topic">Other publications</h2><hr />
+    <h2 class="pub-topic">Other publications</h2>
+    <ul class="pub-list">
     {% assign other_shown = true %}
   {% endunless %}
-  {% include archive-single.html %}
+  {% include pub-row.html %}
 {% endfor %}
+{% if other_shown %}</ul>{% endif %}

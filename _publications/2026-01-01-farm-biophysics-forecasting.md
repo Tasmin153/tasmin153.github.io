@@ -5,7 +5,8 @@ category: preprints
 topic: resistance
 permalink: /publications/farm-biophysics-forecasting/
 date: 2026-01-02
-venue: "bioRxiv (2026); manuscript under review at Proceedings of the National Academy of Sciences (PNAS)"
+venue: "bioRxiv (2026)"
+status: "Under review at PNAS"
 authors: "Mahbuba Tasmin, Shrishti Barethiya, Yu Wang, Lulu Kang, Jianhan Chen, Anna G. Green"
 excerpt: "Fuses protein thermostability and biophysical energetics with machine learning to forecast mutation-level antibiotic resistance under data scarcity."
 paperurl: "https://www.biorxiv.org/content/10.64898/2026.07.23.740359v1"

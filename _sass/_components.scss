@@ -745,23 +745,99 @@
 }
 
 /*
-   Publications page: topic headings and type badges
+   Publications page: compact list grouped by topic
    ========================================================================== */
 
-.pub-topic {
-  margin-top: 2.2em;
+h2.pub-topic {
+  margin: 2.4em 0 0.6em;
+  padding: 0;
+  border: 0;
+  font-family: $monospace;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-accent-color);
 }
 
-.pub-topic:first-of-type {
-  margin-top: 1em;
+h2.pub-topic:first-of-type {
+  margin-top: 1.2em;
 }
 
-.pub-meta {
+.pub-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--global-border-color);
+}
+
+.pub-row {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  column-gap: 18px;
+  row-gap: 6px;
+  align-items: baseline;
+  margin: 0;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--global-border-color);
+
+  > * {
+    grid-column: 2;
+  }
+
+  @media (max-width: 620px) {
+    grid-template-columns: minmax(0, 1fr);
+
+    > * {
+      grid-column: 1;
+    }
+  }
+}
+
+.pub-row__year {
+  grid-column: 1;
+  grid-row: 1;
+  font-family: $monospace;
+  font-size: 13px;
+  color: var(--global-text-color-light);
+
+  @media (max-width: 620px) {
+    grid-row: auto;
+  }
+}
+
+h3.pub-row__title {
+  grid-row: 1;
+  margin: 0;
+  font-family: $header-font-family;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0;
+
+  @media (max-width: 620px) {
+    grid-row: auto;
+  }
+
+  a {
+    color: var(--global-heading-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-accent-color);
+      text-decoration: underline;
+    }
+  }
+}
+
+.pub-row__sub {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   gap: 4px 10px;
-  margin: 0 0 0.6em;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
 }
 
 .pub-kind {
@@ -773,4 +849,53 @@
   padding: 2px 8px;
   border-radius: 3px;
   white-space: nowrap;
+}
+
+.pub-status {
+  font-family: $monospace;
+  font-size: 11.5px;
+  color: var(--global-accent-color);
+}
+
+.pub-row__more {
+  font-size: 14.5px;
+  line-height: 1.6;
+
+  summary {
+    display: inline-block;
+    cursor: pointer;
+    list-style: none;
+    font-family: $monospace;
+    font-size: 12px;
+    color: var(--global-text-color-light);
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::after {
+      content: " +";
+    }
+
+    &:hover {
+      color: var(--global-accent-color);
+    }
+  }
+
+  &[open] summary::after {
+    content: " \2212";
+  }
+
+  p {
+    max-width: 62ch;
+    margin: 8px 0 0;
+  }
+}
+
+.pub-row__authors {
+  color: var(--global-text-color-light);
+
+  strong {
+    color: var(--global-heading-color);
+  }
 }
