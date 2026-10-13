@@ -31,7 +31,7 @@ permalink: /research/
 <p class="research-links"><a class="btn" href="https://www.biorxiv.org/content/10.64898/2026.01.30.702134v1.abstract" target="_blank" rel="noopener">Paper</a><a class="btn" href="https://github.com/SAGE-Lab-UMass/Big-TB-benchmark" target="_blank" rel="noopener">Code on GitHub</a></p>
 </section>
 <section class="rs-sec" id="farm">
-<h2 class="rs-label">FARM forecasting &middot; Under review at PNAS</h2>
+<h2 class="rs-label">FARM forecasting &middot; Under revision</h2>
 <p class="rs-q">Trained on one snapshot of the WHO resistance catalogue, can a model forecast which uncertain variants will later be called resistance-causing?</p>
 <p>FARM learns only from variants with known effects in the 2021 WHO catalogue, then is tested prospectively on the &ldquo;uncertain significance&rdquo; variants that WHO reclassified in 2023.</p>
 <div class="rs-result"><span class="rs-result__n">80.7%</span><span class="rs-result__t">of the variants later reclassified as resistant were recovered in that prospective test</span></div>

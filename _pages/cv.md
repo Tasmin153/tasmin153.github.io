@@ -58,9 +58,9 @@ Selected Publications
 ======
 Full list with abstracts on the [Publications](/publications/) page.
 
-*Preprints and Manuscripts Under Review*
-* Tasmin, M., Barethiya, S., Wang, Y., Kang, L., Chen, J., Green, A. G. **["FARM: Forecasting Antibiotic Resistance in *Mycobacterium tuberculosis* Using Biophysics and Machine Learning."](https://www.biorxiv.org/content/10.64898/2026.07.23.740359v1)** bioRxiv, 2026. Manuscript under review at *Proceedings of the National Academy of Sciences (PNAS)*.
-* Tasmin, M., Mohanty, S., Kulkarni, S., Farhat, M. R., Green, A. G. **["BIG-TB: A Benchmark for Prediction and Interpretability of Sequence-Based Machine Learning Using *Mycobacterium tuberculosis* Genomes."](https://www.biorxiv.org/content/10.64898/2026.01.30.702134v1.abstract)** bioRxiv, 2026. Manuscript submitted; under revision following peer review.
+*Preprints and Manuscripts Under Revision*
+* Tasmin, M., Barethiya, S., Wang, Y., Kang, L., Chen, J., Green, A. G. **["FARM: Forecasting Antibiotic Resistance in *Mycobacterium tuberculosis* Using Biophysics and Machine Learning."](https://www.biorxiv.org/content/10.64898/2026.07.23.740359v1)** bioRxiv, 2026. Under revision, preparing to resubmit.
+* Tasmin, M., Mohanty, S., Kulkarni, S., Farhat, M. R., Green, A. G. **["BIG-TB: A Benchmark for Prediction and Interpretability of Sequence-Based Machine Learning Using *Mycobacterium tuberculosis* Genomes."](https://www.biorxiv.org/content/10.64898/2026.01.30.702134v1.abstract)** bioRxiv, 2026. Under revision, preparing to resubmit.
 
 *Peer-Reviewed Journal Articles & Book Chapters*
 * Green, A. G., **Tasmin, M.**, Vargas Jr., R., Farhat, M. R. **["The structural context of mutations in proteins predicts their effect on antibiotic resistance."](https://doi.org/10.7554/eLife.109450.1)** *eLife*, 14:RP109450, 2025.

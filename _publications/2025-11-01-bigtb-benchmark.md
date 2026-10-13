@@ -6,7 +6,7 @@ topic: resistance
 permalink: /publications/bigtb-benchmark/
 date: 2026-01-01
 venue: "bioRxiv (2026)"
-status: "Under revision following peer review"
+status: "Under revision, preparing to resubmit"
 authors: "Mahbuba Tasmin, Saishardha Mohanty, S. Kulkarni, Maha R. Farhat, Anna G. Green"
 excerpt: "A unified 17K-isolate benchmark dataset for genotype-to-phenotype prediction across 11 WHO-priority antibiotics, integrating genomic, proteomic, and evolutionary modalities."
 paperurl: "https://www.biorxiv.org/content/10.64898/2026.01.30.702134v1.abstract"

@@ -58,7 +58,7 @@ redirect_from:
 <ol class="home-pubs">
 <li class="home-pub">
 <div class="home-pub__year">2026</div>
-<div><p class="home-pub__venue">bioRxiv <span class="home-pub__kind">Preprint · under review at PNAS</span></p><h3><a href="https://www.biorxiv.org/content/10.64898/2026.07.23.740359v1" target="_blank" rel="noopener">FARM: Forecasting Antibiotic Resistance in <em>Mycobacterium tuberculosis</em> Using Biophysics and Machine Learning</a></h3><p class="home-pub__authors"><strong>Tasmin, M.</strong>, Barethiya, S., Wang, Y., Kang, L., Chen, J., &amp; Green, A. G.</p></div>
+<div><p class="home-pub__venue">bioRxiv <span class="home-pub__kind">Preprint · under revision</span></p><h3><a href="https://www.biorxiv.org/content/10.64898/2026.07.23.740359v1" target="_blank" rel="noopener">FARM: Forecasting Antibiotic Resistance in <em>Mycobacterium tuberculosis</em> Using Biophysics and Machine Learning</a></h3><p class="home-pub__authors"><strong>Tasmin, M.</strong>, Barethiya, S., Wang, Y., Kang, L., Chen, J., &amp; Green, A. G.</p></div>
 </li>
 <li class="home-pub">
 <div class="home-pub__year">2026</div>
@@ -99,9 +99,10 @@ redirect_from:
 <div><p class="home-label">Since 2025</p><h2>Recent milestones</h2></div>
 </div>
 <ul class="home-tl">
-<li><span class="home-tl__when">Next</span><span>Preparing to propose my dissertation, <em>"Integrating Biological Signal to Improve Generalizability and Interpretability of Machine Learning in Genomics,"</em> in early Fall 2026.</span></li>
-<li><span class="home-tl__when">2026</span><span>Submitted the <strong>FARM</strong> manuscript (biophysics-aware resistance forecasting) — under review at PNAS.</span></li>
-<li><span class="home-tl__when">2026</span><span>Selected as a fully funded graduate participant for the Tapia Conference.</span></li>
+<li><span class="home-tl__when">Oct 2026</span><span>Passed my dissertation proposal defense, <em>"Integrating Biological Signal to Improve Generalizability and Interpretability of Machine Learning in Genomics."</em></span></li>
+<li><span class="home-tl__when">2026</span><span>Attended and presented at the Tapia Conference as a fully funded graduate participant.</span></li>
+<li><span class="home-tl__when">2026</span><span>The <strong>FARM</strong> manuscript (biophysics-aware resistance forecasting) is under revision, preparing to resubmit.</span></li>
+<li><span class="home-tl__when">2026</span><span>The <strong>BIG-TB</strong> benchmark preprint is under revision, preparing to resubmit.</span></li>
 <li><span class="home-tl__when">2026</span><span>Featured as a graduate researcher in UMass's <a href="https://www.youtube.com/watch?v=O0k0XMh18G8">AI at UMass</a> public-engagement campaign.</span></li>
 <li><span class="home-tl__when">2025–26</span><span>Serving as elected Ph.D. Graduate Representative, Faculty Senate / CICS, UMass Amherst.</span></li>
 <li><span class="home-tl__when">2026</span><span>Reviewing for <em>Bioinformatics Advances</em> and MLCSB (ISMB).</span></li>
